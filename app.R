@@ -17,7 +17,7 @@ library(viridisLite)
 ruta_mip <- "mip_csv/conjunto de datos"
 file_mip_ixi <- "conjunto_de_datos_mip_t_pb_ixi_32018.csv"
 
-mip_ixi_d_m <- read.csv(file.path(ruta_mip, file_mip_ixi), encoding = "UTF-8")
+mip_ixi_d_m <- read.csv(file_mip_ixi, encoding = "UTF-8")
 
 col_id_ixi <- colnames(mip_ixi_d_m)
 
